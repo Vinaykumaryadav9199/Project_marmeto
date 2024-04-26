@@ -80,11 +80,12 @@ h1{
 
 }
 .ventitle{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 0;
+   display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px;
    
 }
 .button{
@@ -137,6 +138,9 @@ h1{
     }
     h1{
         font-size: large;
+    }
+     .ventitle {
+        gap: 5px; 
     }
 }
 
