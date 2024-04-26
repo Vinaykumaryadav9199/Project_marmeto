@@ -72,6 +72,7 @@ function createProductCard(product) {
 
     const compareAtPrice = document.createElement('p');
     compareAtPrice.innerText = `${product.compare_at_price}.00`;
+    compareAtPrice.style.fontFamily=  "Khula"," sans-serif";
 
     const discount = document.createElement('p');
     const discountPercentage = calculateDiscountPercentage(product.price, product.compare_at_price);
